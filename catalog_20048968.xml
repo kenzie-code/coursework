@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet href="catalog_20048968.css"?>
+<!--
+    Gift card store
+    Name: Punam Thapa Magar
+    LondonmetID: 20048968
+    CollegeID: np01cp4s210273
+    Date: 30-03-2022
+-->
+<cw2:Giftcardstore xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:cw2="http://www.cw2.com/catalog_20048968" xs:schemaLocation="http://www.cw2.com/catalog_20048968 catalog_20048968.xsd">
+    <cw2:store id="X-90100">
+        <cw2:welcome_Everyday>Welcome!!Every Day You Get Our Best</cw2:welcome_Everyday>
+        <cw2:store_info>
+            <!--Empty content type-->
+            <cw2:store_Logo />
+            <!--Simple content type since it contains text only-->
+            <cw2:store_name>Kylie Store</cw2:store_name>
+            <!--Complex content type since it contains attributes as well-->
+            <cw2:store_manager title="Mrs">Kylie Jenner</cw2:store_manager>
+            <!--Complex content type since it contains attributes as well-->
+            <cw2:items>
+                <!-- entity references for & symbols -->
+                <cw2:item price="$47" item_number="001">Kylie Cosmetics</cw2:item>
+                <cw2:item price="$26" item_number="002">Kylie Baby</cw2:item>
+                <cw2:item price="$15" item_number="003">Fenty Beauty</cw2:item>
+                <cw2:item price="$26" item_number="004">Kylie Skin</cw2:item>
+                <cw2:item price="$40" item_number="005">Kylie Swim</cw2:item>
+                <cw2:item price="$20" item_number="006">Any time buys</cw2:item>
+                <cw2:item price="$30" item_number="007">Clothing Store</cw2:item>
+                <!--Repetition of element item seven times in a row-->
+            </cw2:items>
+            <cw2:time>
+                <!--Simple content type since it conatins time only-->
+                <cw2:opening>7:00AM</cw2:opening>
+                <cw2:closing>9:00PM</cw2:closing>
+            </cw2:time>
+            <cw2:address>
+                <!--Simple content type since it contains text only-->
+                <street>400 Main St.</street>
+                <city>Davidton</city>
+                <state>MO</state>
+                <zip>29102</zip>
+            </cw2:address>
+            <cw2:telephone_numbers>
+                <!--Simple content type since it contains numbers only-->
+                <cw2:telephone_number>555-91028</cw2:telephone_number>
+                <cw2:phone>0192837</cw2:phone>
+            </cw2:telephone_numbers>
+            <!--Simple content type since it  contains text only-->
+            <cw2:website>www.kyliejenner.com</cw2:website>
+            <cw2:email>kyliejenner09@gmail.com</cw2:email>
+        </cw2:store_info>
+
+        <!-- complex type because it contains multiple attributes and parent element-->
+        <cw2:gift_cards>
+            <cw2:gift_card id="PO09" card_type="physical" unique_code="0090">
+                <cw2:store_image />
+                <cw2:gift_card_name>Kylie Cosmetics Gift Card</cw2:gift_card_name>
+                <cw2:type>Debit</cw2:type>
+                <cw2:initial_card_value>50</cw2:initial_card_value>
+                <rating>⭐️⭐️⭐️⭐️</rating>
+                <price>50</price>
+                <cw2:validity>
+                    <issue_date>02-05-2022</issue_date>
+                    <expire_date>02-05-2024</expire_date>
+                </cw2:validity>
+                <cw2:number_of_users>10000</cw2:number_of_users>
+                <cw2:discount_voucher>15</cw2:discount_voucher>
+                <cw2:title>Terms and Conditions</cw2:title>
+                <cw2:content>
+                    <!-- complex type because it contains an attribute-->
+                    <cw2:message message_number="1">By accessing this website and/or placing an order, you agree to be bound by the terms and conditions set out below. </cw2:message>
+                    <cw2:message message_number="2">If you do not agree to be bound by these terms and conditions, you may not use or access this website.</cw2:message>
+                    <cw2:message message_number="3">Your attention is particularly drawn to Section 11 (Price and Payment), Section 14 (Limitation of Liability), and Section 16 (Indemnification).</cw2:message>
+                    <cw2:message message_number="4">The provision of these Terms and Conditions apply to the extent permitted under applicable law.</cw2:message>
+                </cw2:content>
+            </cw2:gift_card>
+
+            <cw2:gift_card id="920RT" card_type="physical" unique_code="90:90-80">
+                <cw2:B_store_image />
+                <cw2:gift_card_name>Kylie Baby Gift Card</cw2:gift_card_name>
+                <cw2:type>Debit</cw2:type>
+                <cw2:initial_card_value>10</cw2:initial_card_value>
+                <cw2:validity>
+                    <issue_date>02-08-2022</issue_date>
+                    <expire_date>02-08-2025</expire_date>
+                </cw2:validity>
+                <cw2:number_of_users>10000</cw2:number_of_users>
+                <cw2:discount_voucher>25</cw2:discount_voucher>
+                <rating>⭐️⭐️⭐️⭐️</rating>
+                <cw2:title>Terms and Conditions</cw2:title>
+                <cw2:content>
+                    <cw2:message message_number="1"> All the orders are subjected to acceptance and availability, which may vary depending on the shipping destination.</cw2:message>
+                    <cw2:message message_number="2">When you buy products online, you have cancellation rights.</cw2:message>
+                    <cw2:message message_number="3">You may only user one disciunt code with each order. </cw2:message>
+                    <cw2:message message_number="4">We accept payment with Afterpay, Visa, Mastercard, American Express, Paypal and Shop Pay</cw2:message>
+                </cw2:content>
+            </cw2:gift_card>
+
+            <cw2:gift_card id="9318U" card_type="physical" unique_code="80:50-50">
+                <cw2:F_store_image />
+                <cw2:gift_card_name>Fenty Beauty By Rihanna</cw2:gift_card_name>
+                <cw2:type>Debit</cw2:type>
+                <cw2:initial_card_value>20</cw2:initial_card_value>
+                <cw2:validity>
+                    <issue_date>08-08-2022</issue_date>
+                    <expire_date>08-08-2026</expire_date>
+                </cw2:validity>
+                <cw2:discount_voucher>25</cw2:discount_voucher>
+                <cw2:title>Terms and Conditions</cw2:title>
+                <cw2:content>
+                    <cw2:message message_number="1">You may browse the site without registering for an account.</cw2:message>
+                    <cw2:message message_number="2">You will be required to register for an account to use certain features of the sites, such as subscribing to newsletter.</cw2:message>
+                    <cw2:message message_number="3">You may only user one discount code with each order. </cw2:message>
+                    <cw2:message message_number="4">We accept payment with Afterpay, Visa, Mastercard, American Express, Paypal and Shop Pay</cw2:message>
+                </cw2:content>
+            </cw2:gift_card>
+
+            <cw2:gift_card id="P01" card_type="physical" unique_code="20:20-58">
+                <cw2:S_store_image />
+                <cw2:gift_card_name>kylie Skin</cw2:gift_card_name>
+                <cw2:type>Debit</cw2:type>
+                <cw2:initial_card_value>10</cw2:initial_card_value>
+                <cw2:validity>
+                    <issue_date>03-04-2022</issue_date>
+                    <expire_date>03-04-2025</expire_date>
+                </cw2:validity>
+                <cw2:number_of_users>10000</cw2:number_of_users>
+                <cw2:discount_voucher>30</cw2:discount_voucher>
+                <cw2:title>Terms and Conditions</cw2:title>
+                <cw2:content>
+                    <cw2:message message_number="1"> No need to carry cash and feel free to buy anything you want without the fear of theft or loss.</cw2:message>
+                </cw2:content>
+            </cw2:gift_card>
+
+            <cw2:gift_card id="0192P" card_type="physical" unique_code="10:30-40">
+                <cw2:H_store_image />
+                <cw2:gift_card_name>Kylie Swim</cw2:gift_card_name>
+                <cw2:type>Debit</cw2:type>
+                <cw2:initial_card_value>15</cw2:initial_card_value>
+                <cw2:validity>
+                    <issue_date>09-12-2022</issue_date>
+                    <expire_date>09-12-2025</expire_date>
+                </cw2:validity>
+                <cw2:number_of_users>100000</cw2:number_of_users>
+                <rating>⭐️⭐️⭐️⭐️</rating>
+                <cw2:title>Terms and Conditions</cw2:title>
+                <cw2:content>
+                    <cw2:message message_number="1">You may browse the site without registering for an account.</cw2:message>
+                    <cw2:message message_number="2">You will be required to register for an account to use certain features of the sites, such as subscribing to newsletter.</cw2:message>
+                    <cw2:message message_number="3">You may only user one discount code with each order. </cw2:message>
+                    <cw2:message message_number="4">We accept payment with Afterpay, Visa, Mastercard, American Express, Paypal and Shop Pay</cw2:message>
+                </cw2:content>
+            </cw2:gift_card>
+
+            <cw2:gift_card id="P03" card_type="physical" unique_code="60:40-70">
+                <cw2:A_store_image />
+                <cw2:gift_card_name>Any Time Buys Gift Card</cw2:gift_card_name>
+                <cw2:type>Credit</cw2:type>
+                <cw2:initial_card_value>20</cw2:initial_card_value>
+                <cw2:validity>
+                    <issue_date>29-04-2022</issue_date>
+                    <expire_date>29-04-2026</expire_date>
+                </cw2:validity>
+                <cw2:number_of_users>10000</cw2:number_of_users>
+                <cw2:discount_voucher>30</cw2:discount_voucher>
+                <cw2:title>Terms and Conditions</cw2:title>
+                <cw2:content>
+                    <cw2:message message_number="1">We will make all efforts to ensure pricing is correct,but we will not be obliged to sell products displaying incorrect prices.</cw2:message>
+                    <cw2:message message_number="2">Once a deposite is paid you have accepted the order and payment terms/commitments.</cw2:message>
+                </cw2:content>
+            </cw2:gift_card>
+
+            <cw2:gift_card id="PO5" card_type="digital" unique_code="12:80-54">
+                <cw2:L_store_image />
+                <cw2:gift_card_name>B Line Clothing Giftcard</cw2:gift_card_name>
+                <cw2:type>Debit</cw2:type>
+                <cw2:initial_card_value>50</cw2:initial_card_value>
+                <cw2:validity>
+                    <issue_date>04-12-2022</issue_date>
+                    <expire_date>04-12-2026</expire_date>
+                </cw2:validity>
+                <cw2:number_of_users>150000</cw2:number_of_users>
+                <cw2:discount_voucher>10</cw2:discount_voucher>
+                <cw2:title>Terms and Conditions</cw2:title>
+                <cw2:content>
+                    <cw2:message message_number="1">1.These are the terms and conditions(which included our copyright notice) on wcih we do business for goods ordered through this website.  </cw2:message>
+                    <cw2:message message_number="2">2.We reserve the right to vary these terms and conditions at any time but, in respect of any ordered goods, the terms and conditions which apply shall be those which you accepted when you places your order. Otherwise, no alteration of these terms and conditions shall apply unless agreed in writing between us and you.  </cw2:message>
+                    <cw2:message message_number="3">3.Every effort will be made to ensure that prices shown in our website are accurate at the time you place your order.</cw2:message>
+                </cw2:content>
+            </cw2:gift_card>
+
+            <cw2:gift_card id="01929" card_type="digital" unique_code="70:60:50">
+                <cw2:Q_store_image />
+                <cw2:gift_card_name>BC Liquor Store Gift Card</cw2:gift_card_name>
+                <cw2:type>Debit</cw2:type>
+                <cw2:initial_card_value>75</cw2:initial_card_value>
+                <cw2:validity>
+                    <issue_date>03-05-2022</issue_date>
+                    <expire_date>03-05-2025</expire_date>
+                </cw2:validity>
+                <cw2:number_of_users>30000</cw2:number_of_users>
+                <cw2:discount_voucher>25</cw2:discount_voucher>
+                <cw2:title>Terms and Conditions</cw2:title>
+                <cw2:content>
+                    <message message_number="1">1. Your age should be over 18 to buy a liquor store gift card.</message>
+                    <message message_number="2">2. Your access to and use of the Servuce is conditioned on your acceptance of and compliance with these Terms.</message>
+                    <message message_number="3">3. These Terms apply to all visitors, users and other others who access or use the Service.</message>
+                    <message message_number="4">4. By accessing or using the Service you agree to be bound by these Terms.</message>
+                    <message message_number="5">5. If you disagree with any part of the terms then you may not access the Service.</message>
+                </cw2:content>
+            </cw2:gift_card>
+        </cw2:gift_cards>
+
+        <cw2:footer>
+            <!--Simple content type since it contains simple text only-->
+            <cw2:copyright>COPYRIGHT RIGHTS RESERVED 2022</cw2:copyright>
+            <cw2:line>--------------------------------------------------------------------------</cw2:line>
+            <cw2:Instagram>
+                <text>Instagram</text>
+                <cw2:image />
+            </cw2:Instagram>
+            <cw2:Telegram>
+                <text>Telegram</text>
+                <cw2:image1/>
+            </cw2:Telegram>
+            <cw2:Twitter>
+                <text>Twitter</text>
+                <cw2:image2/>
+            </cw2:Twitter>
+            <cw2:Facebook>
+                <text>Facebook</text>
+                <cw2:image3/>
+            </cw2:Facebook> 
+        </cw2:footer>
+    </cw2:store>
+</cw2:Giftcardstore>

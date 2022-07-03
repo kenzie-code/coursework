@@ -1,0 +1,410 @@
+/*
+    Name: Punam Thapa Magar
+    Date: 03/04/2022
+*/
+
+/* placing namespace excape style*/
+@namespace cw2 url(http://www.cw2.com/catalog_20048968);
+
+cw2|welcome_Everyday, cw2\:welcome_Everyday{
+    display: block;
+    font-size: 20pt;
+    font-weight: bold;
+    font-style: normal;
+    color:black;
+    margin-top: 10pt;
+    text-align: center;
+}
+
+cw2|store, cw2\:store{
+    display: block;
+    width: 1500px;
+    height: 650px;
+    font-family: Times New Roman; 
+    font-size:12pt;
+    margin: 5px;
+}
+
+/*style for the content store_info*/
+cw2|store_info, cw2\:store_info{
+    display: block;
+    font-family: Times New Roman; 
+    font-size:12pt;
+    flex-direction: column;
+    text-align: center;
+}
+
+/*style for logo*/
+cw2|store_Logo, cw2\:store_Logo{
+    content: url("KSLogo.jpg");
+    image-orientation: flip;
+    float: center;
+    width: 250px;
+    height: 150px;
+    margin-top: 50px;
+    border: 10px rgb(194, 144, 238);
+    border-radius: 40px;
+}
+
+cw2|store_name, cw2\:store_name{
+    display: block;
+    text-align: center;
+    font-size: 20pt;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(20, 40, 220);
+    padding-top: 10pt;
+    padding-bottom: 5pt;
+    background-color: rgb(238, 144, 207);
+    animation-name: hello;
+    animation-duration: 5s;
+}
+/*Style for animation of background color of text welcomeEveryday*/
+@keyframes hello{
+    from {background-color: rgb(238, 144, 207);}
+    to {background-color: rgba(112, 200, 216, 0.829);}
+}
+store_name:before {content: "Store-name: "}
+
+cw2|store_manager, cw2\:store_manager{
+    display: block;
+    font-size: 15pt;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(20, 190, 220);
+}
+store_manager:before {content: "Store manager: "}
+
+cw2|items > item, cw2\:items > item{
+    display: list-item;
+    font-size: 12pt;
+    font-family: 'Times New Roman';
+    color: black;
+}
+items:before {content: "List of Items: " ; font-weight: bold;}
+
+cw2|time > opening, cw2\:time > opening{
+    display: block;
+    font-size: 12pt;
+    font-family: 'Times New Roman';
+    color: rgb(10, 10, 23);
+}
+opening:before {content: "Opening Time: " ; font-weight: bold;}
+
+cw2|time > closing, cw2\:time > closing{
+    display: block;
+    font-size: 12pt;
+    font-family: 'Times New Roman';
+    color: rgb(10, 10, 23);
+}
+closing:before {content: "Closing Time: "  ; font-weight: bold;}
+
+cw2|address, cw2\:address{
+    display:block;
+    font-size: 12;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(10, 10, 23);
+    margin-left:0pt;
+}
+address:before {content: "Address: " ; font-weight: bold;}
+
+cw2|telephone_numbers > telephone_number, cw2\:telephone_numbers > telephone_number{
+    display: list-item;
+    font-size: 12pt;
+    font-family: 'Times New Roman';
+    color: rgb(10, 10, 23);
+}
+telephone_number:before {content: "Telephone Number: " ; font-weight: bold;}
+
+cw2|telephone_numbers > phone, cw2\:telephone_numbers > phone{
+    display: list-item;
+    font-size: 12pt;
+    font-family: 'Times New Roman';
+    color: rgb(10, 10, 23);
+}
+phone:before {content: "Phone Number: " ; font-weight: bold;}
+
+cw2|website, cw2\:website{
+    display: block;
+    font-size: 12pt;
+    font-family: 'Times New Roman';
+    color: blue;
+    text-decoration: underline;
+}
+website:before {content: "Website: ";}
+
+cw2|email, cw2\:email{
+    display: block;
+    font-size: 12pt;
+    font-family: 'Times New Roman';
+    color: blue;
+    text-decoration: underline;
+}
+email:before {content: "E-mail: ";}
+
+cw2|gift_cards, cw2\:gift_cards{
+    width: 90%;
+	min-height: 90vh;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 10px auto;
+	margin-bottom: 40px;
+    padding: 10px;
+}
+
+cw2|gift_card, cw2\:gift_card{
+    width: 300px;
+	display: flex;
+	flex-direction: column;
+	margin: 10px auto;
+	padding: 10px;
+	background-color: aliceblue;
+	border: black solid 3px;
+	border-radius: 0.25rem;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+cw2|gift_card_name, cw2\:gift_card_name{
+    display: block;
+    font-size: 16pt;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: hotpink;
+    padding-top: 10pt;
+    background-color: honeydew;
+}
+giftcardname:before {content: "Gift Card Name: "}
+
+cw2|store_image, cw2\:store_image{
+    content: url("KCGC.jpg");
+    image-orientation: flip;
+    width: 280px;
+    height: 250px;
+    border: 10px ridge plum;
+}
+
+cw2|B_store_image, cw2\:B_store_image{
+    content: url("KB.png");
+    image-orientation: flip;
+    width: 280px;
+    height: 250px;
+    border: 10px ridge plum;
+}
+
+cw2|F_store_image, cw2\:F_store_image{
+    content: url("fbGC.jpg");
+    image-orientation: flip;
+    width: 280px;
+    height: 250px;
+    border: 10px ridge plum;
+}
+
+cw2|S_store_image, cw2\:S_store_image{
+    content: url("Skin.png");
+    image-orientation: flip;
+    width: 280px;
+    height: 250px;
+    border: 10px ridge plum;
+}
+
+cw2|A_store_image, cw2\:A_store_image{
+    content: url("Items.png");
+    image-orientation: flip;
+    width: 280px;
+    height: 250px;
+    border: 10px ridge plum;
+}
+
+cw2|L_store_image, cw2\:L_store_image{
+    content: url("Clothing.png");
+    image-orientation: flip;
+    width: 280px;
+    height: 250px;
+    border: 10px ridge plum;
+}
+
+cw2|H_store_image, cw2\:H_store_image{
+    content: url("Swim.jpg");
+    image-orientation: flip;
+    width: 280px;
+    height: 250px;
+    border: 10px ridge plum;
+}
+
+cw2|Q_store_image, cw2\:Q_store_image{
+    content: url("LIQ.jpg");
+    image-orientation: flip;
+    width: 280px;
+    height: 250px;
+    border: 10px ridge plum;
+}
+
+
+cw2|initial_card_value, cw2\:initial_card_value{
+    display: block;
+    font-size: 12pt;
+    font-family: 'Times New Roman';
+    color: black;
+}
+initial_card_value:before{content: "Initial Card Value ($) - " ; font-weight: bold;}
+
+cw2|rating, cw2\:rating{
+    display: block;
+    font-size: 12pt;
+    font-family: 'Times New Roman';
+    color: black;
+}
+rating:before{content: "Rating: " ; font-weight: bold;}
+
+
+cw2|type, cw2\:type{
+    display: block;
+    font-size: 12pt;
+    font-family: 'Times New Roman';
+    color: black;
+}
+type:before {content: "Type: " ; font-weight: bold;}
+
+cw2|price, cw2\:price{
+    display: block;
+    font-size: 12pt;
+    font-family: 'Times New Roman';
+    color: black;
+}
+price:before {content: "Price ($): " ; font-weight: bold;}
+
+cw2|validity > issue_date, cw2\:validity > issue_date{
+    display: block;
+    font-size: 12pt;
+    font-family: 'Times New Roman';
+    color: black;
+}
+issue_date:before {content: "Issue-Date: " ; font-weight: bold;}
+
+cw2|validity > expire_date, cw2\:validity > expire_date{
+    display: block;
+    font-size: 12pt;
+    font-family: 'Times New Roman';
+    color: black;
+}
+expire_date:before {content: "Expire-date: " ; font-weight: bold;}
+
+cw2|number_of_users, cw2\:number_of_users{
+    display: block;
+    font-size: 12pt;
+    font-family: 'Times New Roman';
+    color: black;
+}
+number_of_users:before {content: "Number of users: " ; font-weight: bold;}
+
+cw2|discount_voucher, cw2\:discount_voucher{
+    display: block;
+    font-size: 12pt;
+    font-family: 'Times New Roman';
+    color: black;
+}
+discount_voucher:before {content: "Discount(%): " ; font-weight: bold;}
+
+
+cw2|title, cw2\:title{
+    display: block;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    color: rgb(27, 104, 99);
+    background-color: rgb(194, 144, 238);
+}
+
+cw2|content > message, cw2\:content > message{
+    display: list-item;
+    font-size: 12pt;
+    font-family: 'Times New Roman';
+    color: black;
+}
+
+cw2|copyright, cw2\:copyright{
+    display: block;
+    font-size: 10pt;
+    font-style: italic;
+    font-family: 'Times New Roman';
+    color: black;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+cw2|Instagram, cw2\:Instagram{
+    display: block;
+    font-size: 10pt;
+    font-style: italic;
+    font-family: 'Times New Roman';
+    color: black;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+cw2|Telegram, cw2\:Telegram{
+    display: block;
+    font-size: 10pt;
+    font-style: italic;
+    font-family: 'Times New Roman';
+    color: black;
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+cw2|Twitter, cw2\:Twitter{
+    display: block;
+    font-size: 10pt;
+    font-style: italic;
+    font-family: 'Times New Roman';
+    color: black;
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+cw2|Facebook, cw2\:Facebook{
+    display: block;
+    font-size: 10pt;
+    font-style: italic;
+    font-family: 'Times New Roman';
+    color: black;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+cw2|line, cw2\:line{
+    display: ruby-base;
+    text-align: center;
+    margin-left: 550px;
+}
+
+cw2|image, cw2\:image{
+    content: url("insta.jpg");
+    image-orientation: flip;
+    width: 20px;
+    height: 20px;
+    border: 2.5px ridge plum;
+}
+
+cw2|image1, cw2\:image1{
+    content: url("tel.jpg");
+    image-orientation: flip;
+    width: 20px;
+    height: 20px;
+    border: 2.5px ridge plum;
+}
+
+cw2|image2, cw2\:image2{
+    content: url("twitter.jpg");
+    image-orientation: flip;
+    width: 20px;
+    height: 20px;
+    border: 2.5px ridge plum;
+}
+
+cw2|image3, cw2\:image3{
+    content: url("fb.jpg");
+    image-orientation: flip;
+    width: 20px;
+    height: 20px;
+    border: 2.5px ridge plum;
+}
